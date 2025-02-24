@@ -7,4 +7,10 @@ sensors for proprioception. To tackle the aforementioned challenges, we propose 
 signal drift. We also benchmark our algorithm against two other methods and conduct an ablation study to assess the impact of different components on the overall performance.
 
 
-<img src="https://github.com/nilay121/SensorDriftCompensationUsingCL/blob/main/archi_finger.png" height="400px" width="1000px">architecture2.png)
+<img src="https://github.com/nilay121/SensorDriftCompensationUsingCL/blob/main/architecture.png" height="300px" width="1000px">
+
+
+The network is structured into two distinct parts. The first part, referred to as the static part, consists of a single LSTM layer with 16 nodes, followed by a flattening layer and a
+fully connected layer with 64 output neurons. The second part, called the dynamic part, comprises two fully connected layers with 64 and 256 neurons, respectively, and a single
+output neuron. ReLU activation is applied after each linear layer, except for the final output layer. More details can be found in the paper.
+
