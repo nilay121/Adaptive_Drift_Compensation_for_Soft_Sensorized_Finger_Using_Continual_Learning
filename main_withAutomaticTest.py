@@ -9,15 +9,6 @@ from SensorDataGenerator import trainTestExp
 
 def main():
 
-    '''
-    Notes :
-    1. Scheduler not helping in improving the overall accuracy of the model, the model is more accurate without the
-    scheduler step.
-    2. Need to arrange the accuracy accordingly such that the base difference is maximum.
-    3. Create the framework for test where you the model automatically learns to and understands when to go to training
-    phase by checking the change in distribution.
-    4. Normalizing the features or the targets negatively impacts the performace of the cl model.
-    '''
     trial_overall_error = []
     experiment_loss = {}
     model_predictions = {}
