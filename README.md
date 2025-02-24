@@ -5,4 +5,6 @@ environments and precisely detect object properties. However, a significant chal
 this paper, we introduce a continual learning (CL) approach to model a soft finger equipped with piezoelectric-based strain
 sensors for proprioception. To tackle the aforementioned challenges, we propose an adaptive CL algorithm that integrates a Long Short-Term Memory (LSTM) network with a memory buffer for rehearsal and includes a regularization term to keep the model’s decision boundary close to the base signal while adapting to time-varying drift. We conduct nine different experiments, resetting the entire setup each time to demonstrate
 signal drift. We also benchmark our algorithm against two other methods and conduct an ablation study to assess the impact of different components on the overall performance.
-![](https://github.com/nilay121/SynapNet_ApplicationOnGripper/blob/main/synapnet_gif.gif)
+
+
+<img src="https://github.com/nilay121/SensorDriftCompensationUsingCL/blob/main/archi_finger.png" height="400px" width="1000px">architecture2.png)
