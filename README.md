@@ -28,5 +28,12 @@ output neuron. ReLU activation is applied after each linear layer, except for th
 
 ## To cite the paper
   ```bash
-
+  @inproceedings{kushawaha2025adaptive,
+    title={Adaptive Drift Compensation for Soft Sensorized Finger Using Continual Learning},
+    author={Kushawaha, Nilay and Pathan, Radan and Pagliarani, Niccol{\`o} and Cianchetti, Matteo and Falotico, Egidio},
+    booktitle={2025 IEEE 8th International Conference on Soft Robotics (RoboSoft)},
+    pages={1--6},
+    year={2025},
+    organization={IEEE}
+  }
   ```
